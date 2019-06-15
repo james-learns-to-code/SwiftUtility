@@ -1,15 +1,14 @@
 # SwiftUtility
+Utility Classes/Extensions for Swift.
 
 [![CI Status](https://img.shields.io/travis/banggaoo/SwiftUtility.svg?style=flat)](https://travis-ci.org/banggaoo/SwiftUtility)
 [![Version](https://img.shields.io/cocoapods/v/SwiftUtility.svg?style=flat)](https://cocoapods.org/pods/SwiftUtility)
 [![License](https://img.shields.io/cocoapods/l/SwiftUtility.svg?style=flat)](https://cocoapods.org/pods/SwiftUtility)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftUtility.svg?style=flat)](https://cocoapods.org/pods/SwiftUtility)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+iOS 11 above.
 
 ## Installation
 
@@ -22,7 +21,7 @@ pod 'SwiftUtility'
 
 ## Author
 
-banggaoo, jameslee@goodeffect.com
+James Lee, jameslee@goodeffect.com
 
 ## License
 
