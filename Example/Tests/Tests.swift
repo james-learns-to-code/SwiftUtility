@@ -2,7 +2,7 @@
 
 import Quick
 import Nimble
-import SwiftUtility
+import SwiftUtilityKit
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {
