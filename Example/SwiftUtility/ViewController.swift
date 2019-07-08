@@ -11,17 +11,27 @@ import SwiftUtilityKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-       
+    private func test() {
+        
         UIButton.impact.impactOccurred()
+        UITableView().register(UITableViewCell.self)
+        UITableView().registerNib(UITableViewCell.self)
+        UITableView().isCellFullyVisible(indexPath: IndexPath(row: 0, section: 0))
+        UITableViewCell.dequeue(from: UITableView(), for: IndexPath(row: 0, section: 0))
+        UICollectionView().register(UICollectionViewCell.self)
+        UICollectionView().registerNib(UICollectionViewCell.self)
+        UICollectionView().isCellFullyVisible(indexPath: IndexPath(row: 0, section: 0))
+        UICollectionViewCell.dequeue(from: UICollectionView(), for: IndexPath(row: 0, section: 0))
+        UIView.initFromNib()
+        UIViewController.initFromNib()
+        NSObject.name
+        
+        let array = [10, 20, 30]
+        array[safe: 3]
+        array[safe: 1..<2]
+        
+        UIColor(hex: 0xffffff).inversed
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
