@@ -6,44 +6,17 @@ import SwiftUtilityKit
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {
-        describe("these will fail") {
-
-            it("can do maths") {
-                expect(1) == 2
+        
+        describe("unwrapOrThrow func") {
+            it("have to throw error if self is nil") {
+                let val: Int? = nil
+                expect { _ = try val.unwrapOrThrow(NSError(domain: "", code: 0, userInfo: nil)) }.to( throwError() )
             }
-
-            it("can read") {
-                expect("number") == "string"
-            }
-
-            it("will eventually fail") {
-                expect("time").toEventually( equal("done") )
-            }
-            
-            context("these will pass") {
-
-                it("can do maths") {
-                    expect(23) == 23
-                }
-
-                it("can read") {
-                    expect("🐮") == "🐮"
-                }
-
-                it("will eventually pass") {
-                    var time = "passing"
-
-                    DispatchQueue.main.async {
-                        time = "done"
-                    }
-
-                    waitUntil { done in
-                        Thread.sleep(forTimeInterval: 0.5)
-                        expect(time) == "done"
-
-                        done()
-                    }
-                }
+            it("have to return val if self is not nil") {
+                let val: Int? = 2
+                let wrappedVal = try? val.unwrapOrThrow(NSError(domain: "", code: 0, userInfo: nil))
+                expect(wrappedVal).toNot(equal(.some(nil)))
+                expect(wrappedVal!).to(equal(2))
             }
         }
     }
