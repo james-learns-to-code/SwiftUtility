@@ -78,6 +78,7 @@
 		8D75EC8969EA46FBD6E1BED7791A3C37 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63658A9177347DF26F42C8937163F78 /* BeLogical.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		94C1341023A6242B00C7F7E8 /* NSObject+Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1340E23A623C000C7F7E8 /* NSObject+Buildable.swift */; };
 		94C1341223A626BC00C7F7E8 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1341123A626BC00C7F7E8 /* Identifiable.swift */; };
+		94C1341423A65F7000C7F7E8 /* UIColor+Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1341323A65F7000C7F7E8 /* UIColor+Fill.swift */; };
 		94DA3131D64B3D904BE28E72F1871065 /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93DEEDCBE9895114D0290D42EDE9E1B /* BeAKindOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		95B1F3E534989838492C7EF5066C5333 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51DDECFB185E793C86B031D1F764E88 /* World+DSL.swift */; };
 		9664C606384E45FFCEE9E6BD19034082 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 3077C95C60D19AA3EB977F761D2D43DA /* QCKDSL.m */; };
@@ -278,6 +279,7 @@
 		91FDA004FC2C1E59AEF5A6E2DA242488 /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
 		94C1340E23A623C000C7F7E8 /* NSObject+Buildable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Buildable.swift"; sourceTree = "<group>"; };
 		94C1341123A626BC00C7F7E8 /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
+		94C1341323A65F7000C7F7E8 /* UIColor+Fill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Fill.swift"; sourceTree = "<group>"; };
 		98E01910595591FEA44B0A244A773127 /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
 		998CBC2DA634E1BDB591E25040B69675 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
 		9AC3B6CB8B298ACC31AF5A4AEB1DCE3F /* Nimble-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Nimble-Info.plist"; sourceTree = "<group>"; };
@@ -604,6 +606,7 @@
 				019AF23CE231E05354F83A20449EC2E7 /* Collection+Safe.swift */,
 				1AF8192C2D4A326AD12442B8C1FCBD6A /* NSObject+Name.swift */,
 				15A588158BA44AA29C74B518594BFDD6 /* Optional+Exeption.swift */,
+				94C1341323A65F7000C7F7E8 /* UIColor+Fill.swift */,
 				3D2380A34ED43719DC963285AD8C22A4 /* Pod */,
 				622084B8D332CA1B19E5014DB95983E0 /* Support Files */,
 				B4692B3F4254A60C45BDE4444A404870 /* UIKit */,
@@ -927,6 +930,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C1341423A65F7000C7F7E8 /* UIColor+Fill.swift in Sources */,
 				8771A9A75DD0AE346A96B1A59C7503FA /* Array+Safe.swift in Sources */,
 				6E941F22DBD2D4271AAC9737D8A81D94 /* Collection+Safe.swift in Sources */,
 				9CCE00664F77BD1011EF2DF228015C49 /* NSObject+Name.swift in Sources */,

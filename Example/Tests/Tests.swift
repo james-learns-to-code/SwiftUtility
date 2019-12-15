@@ -49,6 +49,9 @@ class TableOfContentsSpec: QuickSpec {
         
         UIColor(hex: 0xffffff).inversed
 
+        let image = UIColor.red.filledImage(frame: CGRect(origin: .zero, size: CGSize(width: 100, height: 100)))
+            
+        print(image)
     }
 }
 
