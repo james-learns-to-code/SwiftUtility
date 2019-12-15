@@ -1,6 +1,6 @@
 {
   "name": "SwiftUtilityKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Utility for Swift.",
   "description": "Utility Classes/Extensions for Swift.",
   "homepage": "https://github.com/james-learns-to-code/SwiftUtility",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/james-learns-to-code/SwiftUtility.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "11.0"
