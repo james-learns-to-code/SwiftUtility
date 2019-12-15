@@ -10,29 +10,5 @@ import UIKit
 import SwiftUtilityKit
 
 class ViewController: UIViewController {
-
-    private func test() {
-        
-        UITableView().register(UITableViewCell.self)
-        UITableView().registerNib(UITableViewCell.self)
-        UITableView().isCellFullyVisible(indexPath: IndexPath(row: 0, section: 0))
-        UITableViewCell.dequeue(from: UITableView(), for: IndexPath(row: 0, section: 0))
-        UICollectionView().register(UICollectionViewCell.self)
-        UICollectionView().registerNib(UICollectionViewCell.self)
-        UICollectionView().isCellFullyVisible(indexPath: IndexPath(row: 0, section: 0))
-        UICollectionViewCell.dequeue(from: UICollectionView(), for: IndexPath(row: 0, section: 0))
-        UIView.initFromNib()
-        UIViewController.initFromNib()
-        NSObject.name
-        let label = UILabel().with(\.textColor, set: .red).with(\.text, set: "Hi")
-
-        
-        let array = [10, 20, 30]
-        array[safe: 3]
-        array[safe: 1..<2]
-        
-        UIColor(hex: 0xffffff).inversed
-        
-    }
+ 
 }
-
