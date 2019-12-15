@@ -13,7 +13,6 @@ class ViewController: UIViewController {
 
     private func test() {
         
-        UIButton.impact.impactOccurred()
         UITableView().register(UITableViewCell.self)
         UITableView().registerNib(UITableViewCell.self)
         UITableView().isCellFullyVisible(indexPath: IndexPath(row: 0, section: 0))
@@ -25,6 +24,8 @@ class ViewController: UIViewController {
         UIView.initFromNib()
         UIViewController.initFromNib()
         NSObject.name
+        let label = UILabel().with(\.textColor, set: .red).with(\.text, set: "Hi")
+
         
         let array = [10, 20, 30]
         array[safe: 3]
